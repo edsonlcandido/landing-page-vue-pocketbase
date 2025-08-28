@@ -1,5 +1,20 @@
 /frontend/dist
 /frontend/node_modules
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 /backend/pb_data
 /backend/pocketbase.exe
-/backend/pocketbase
+=======
+/backend/pb_data
+>>>>>>> 71aa643 (feat: Add initial frontend and backend structure with PocketBase and Vue.js)
+=======
+/backend/pb_data
+>>>>>>> 71aa643 (feat: Add initial frontend and backend structure with PocketBase and Vue.js)
+=======
+/backend/pb_data
+>>>>>>> 71aa643 (feat: Add initial frontend and backend structure with PocketBase and Vue.js)
+=======
+/backend/pb_data
+>>>>>>> 71aa643 (feat: Add initial frontend and backend structure with PocketBase and Vue.js)
