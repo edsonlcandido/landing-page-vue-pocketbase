@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PocketBase + Vue.js | Lance seu MVP em Tempo Recorde</title>
-    <link rel="stylesheet" href="https://unpkg.com/picnic/picnic.min.css">
+    <!-- Bulma CSS (replaces Picnic) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        /* Base layout using Picnic as foundation */
+        /* Base layout using Bulma as foundation (custom overrides keep original look) */
         body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; margin: 0; }
         .container { max-width: 1100px; margin: 0 auto; padding: 2rem; }
         header.gradient-bg { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; padding: 5rem 0; text-align: center; }
@@ -18,7 +19,7 @@
         .hero-actions { display: flex; flex-direction: column; gap: .75rem; align-items: center; justify-content: center; }
         @media(min-width:640px){ .hero-actions{ flex-direction: row; } header h1{ font-size:3.5rem; } }
 
-        /* simple button styles that complement Picnic's defaults */
+        /* simple button styles that complement Bulma's defaults */
         .btn { padding: .75rem 1.25rem; border-radius: 999px; text-decoration:none; display:inline-block; font-weight:700; }
         .btn.primary { background: #fff; color: #4f46e5; box-shadow: 0 10px 20px rgba(79,70,229,0.08); }
         .btn.outline { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.9); }
@@ -210,7 +211,7 @@ CMD ["./pocketbase", "serve", "--http=0.0.0.0:8090"]</code></pre>
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>&copy; 2025 PocketBase + Vue.js + Picnicss Stack. Uma solução para acelerar o futuro.</p>
+            <p>&copy; 2025 PocketBase + Vue.js + Bulma Stack. Uma solução para acelerar o futuro.</p>
         </div>
     </footer>
 
